@@ -161,8 +161,21 @@ nav.header-in{
     top: 8px;
 }
 
-nav.solid #logo .logo {
+nav.open #logo .logo {
     background-image: url(../imagenes/logo_white.png);
-    background-color: green;
+}
+nav ul li a{
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 8px 0 0;
+    letter-spacing: -0-06em;
+    text-decoration: none;
 
+}
+
+nav ul li a:hover{
+    color: #ec008c ;
+    background-color: white;
+    text-decoration: none;
 }
